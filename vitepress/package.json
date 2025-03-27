@@ -20,13 +20,13 @@
     },
     "homepage": "https://github.com/CAECOMP/handbook-competitive-programming#readme",
     "devDependencies": {
-        "@types/node": "^22.10.0",
+        "@types/node": "^22.13.14",
         "@web-printer/core": "^0.4.0",
         "@web-printer/vitepress": "^0.4.0",
         "markdown-it-mathjax3": "^4.3.2",
-        "tsx": "^4.19.2",
-        "typescript": "^5.7.2",
-        "vitepress": "^1.5.0"
+        "tsx": "^4.19.3",
+        "typescript": "^5.8.2",
+        "vitepress": "^1.6.3"
     },
     "dependencies": {
         "vitepress-plugin-tabs": "^0.5.0"

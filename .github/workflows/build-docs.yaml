@@ -25,7 +25,7 @@ jobs:
 
       - uses: pnpm/action-setup@v4
         with:
-          version: 9
+          version: 10
           run_install: false
 
       - name: Setup Node
@@ -36,7 +36,7 @@ jobs:
           cache-dependency-path: vitepress/pnpm-lock.yaml
 
       - name: Setup Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5
 
       - name: Install dependencies
         run: pnpm -C vitepress install
